@@ -109,3 +109,119 @@
 }
 
 /* 网页底部 */
+.footer {
+    height: 580px;
+    background-color: #f5f5f5;
+
+}
+
+.slogan {
+    height: 178px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.slogan ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 178px;
+}
+
+.slogan ul li {
+    display: flex;
+    align-items: center;
+    /* 确保两行内元素在同一行 */
+}
+
+.slogan ul li h5 {
+    width: 58px;
+    height: 58px;
+    /* background-color: pink; */
+    background: url(../images/sprite.png) no-repeat;
+}
+
+.slogan ul li p {
+    font-size: 28px;
+    margin-left: 20px;
+
+}
+
+/* 精灵图定位 */
+.slogan ul li .two {
+    background-position: 0 -58px;
+}
+
+.slogan ul li .three {
+    background-position: 0 -116px;
+}
+
+.slogan ul li .three {
+    background-position: 0 -174px;
+}
+
+/* 服务模块 */
+.service {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.service-left {
+    display: flex;
+    gap: 84px;
+
+}
+
+.service-left dt {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.service-left dd {
+    margin-bottom: 10px;
+}
+
+.service-left dd a {
+    color: #969696;
+}
+
+.service-left dd a i {
+    color: #00BE9A;
+}
+
+.service-left dd a:hover {
+    color: #00BE9A;
+}
+
+.service-right ul {
+    display: flex;
+    text-align: center;
+    gap: 55px;
+}
+
+.service-right ul li {
+    color: #969696;
+}
+
+.service-right ul li p {
+    margin-top: 10px;
+}
+
+/* 版权模块 */
+
+/* 这里不采用导航栏方式，因为不太重要，简便方法可以实现 */
+.copyright {
+    text-align: center;
+    margin-top: 100px;
+    line-height: 30px;
+    color: #A1A1A1;
+
+}
+
+.copyright a {
+    color: #A1A1A1;
+}
+
+.copyright p :hover {
+    color: #00BE9A;
+}
